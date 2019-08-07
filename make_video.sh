@@ -1,0 +1,1 @@
+ffmpeg -f image2 -i ./out/processed_%04d.png  -vcodec libx264  -t test.mp4
